@@ -45,12 +45,34 @@ nav a{
 /* header */
 .header{
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .bannar{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.bannar-contant{
+    max-width: 500px;
 }
 .bannar .profile-pic{
-    width: 500px;
+    width: 250px;
+    padding: 0 165px 0 0;
+}
+.bannar-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+.bannar-title{
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.bannar-description{
+    margin-top: 0;
 }
